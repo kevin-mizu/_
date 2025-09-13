@@ -1,1 +1,1 @@
-eval((new URL(location.search)).get('js'))
+eval((new URLSearchParams(location.search)).get('js'))
